@@ -10,6 +10,6 @@ jobs:
 
     steps:
       - name: print hello
-        run: "Hello, Pull Request!"
+        run: "echo Hello, Pull Request!"
 
 
