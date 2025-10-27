@@ -5,11 +5,11 @@ on:
 
 jobs:
   say-hello:
-    name: say Hello
+    name: Say Liam
     runs-on: ubuntu-latest
 
     steps:
-      - name: print hello
-        run: "echo Hello, Pull Request!"
+      - name: print Liam
+        run: "echo Hello, Pull Request Liam!"
 
 
