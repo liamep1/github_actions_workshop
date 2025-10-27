@@ -1,0 +1,15 @@
+name: "Pull Request Workflow"
+
+on: 
+  - pull_request
+
+jobs:
+  say-hello:
+    name: say Hello
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print hello
+        run: "echo Hello, Pull Request!"
+
+
